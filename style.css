@@ -1,0 +1,39 @@
+*{
+  box-sizing:border-box;
+}
+
+#container1{
+  float:top;
+  //position:fixed;
+  width:100%;
+  height:40px;
+  border: 2px black solid;
+}
+
+ul{
+  list-style:none;
+}
+
+
+.nav{
+  display:inline-block;
+  cursor:pointer;
+}
+
+.wpstuff{
+  display:none;
+}
+
+#container2{
+  padding-top:100px;
+}
+
+
+/*#container3{
+  position:absolute;
+  padding-top:100px;
+}
+
+
+
+//"https://public-api.wordpress.com/rest/v1.1/read/tags/$tag/posts"

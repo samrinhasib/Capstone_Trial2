@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="https://code.jquery.com/jquery-3.3.1.js"  integrity="sha384-wZ9p4DIAfqSEtkGvPqfSZNPnW82cHXUU8O5lkp6BweEBUowLIFrpprY/BAfhBg6N" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header id = "container1" role = "navbar">
+      <ul>
+        <li class = "nav" id = "home">Home</li>
+        <li class = "nav"id = "study">Study</li>
+        <li class = "nav" id = "read">Read</li>
+        <li class = "nav" id = "peers">Help Peers Out</li>
+      </ul>
+    </header>
+    <section id = "container2">
+      <div class = "homepage">
+        <h1>Welcome Aspiring Writers!</h1>
+        <p>This is your world to do all that you love! We understand you might be in school and could do with some help finding low-cost textbooks. Click "Study" and find your textbooks!</p>
+        <p>If you want some relief from school and just read something you love for a change, click "Read"!</p>
+        <p>If you want to check out the work of other writers for some inspiration, hit the "Help Peers Out" button.</p>
+        </div>
+        </section>
+        <form class = "peers wpstuff">
+          <fieldset>
+            <legend>Find a Peer's Work</legend>
+            Key Word:<input type = "text" id = "keyword" name = "Key Word">
+            Maximum: <input type = "number" id = "maxresults" name = "Maximum">
+            <button type = "button" name = "Search!" id = "searchit">Search!</button> 
+          </fieldset>
+        </form>
+        <form class = "nytimes wpstuff">
+          <legend>Find bestsellers!</legend>
+          Type:
+          <select id = "typeofbook">
+          </select>
+          <button type = "button" id = "nyt">Find Bestsellers!</button>
+          </form>
+          <form class = "nytimes wpstuff">
+            <legend>Find a Review</legend>
+            Name:<input type = "text" id = "bookreview" name = "Name">
+            <button type = "button" id = "findreview">Find Review!</button>
+            </form>
+            <form class = "getTextbooks wpstuff">
+              <legend>Find a textbook on Google Books!</legend>
+              Textbook Name: <input type = "text" name = "Textbook Name" id = "textname">
+              Author: <input type = "text" name = "Author" id = "bookauthor">
+              <button type = "button" id = "preview">Get Book!</button>
+              </form>
+            <div class = "promotepeers" id = "container3">
+            </div> 
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
